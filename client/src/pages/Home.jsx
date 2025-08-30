@@ -23,7 +23,7 @@ const Home = () => {
 
   const fetchProducts = async () => {
     try {
-      const url = "http://127.0.0.1:9000/products"
+      const url = "https://authentication-with-database.onrender.com/products"
       const headers = {
         headers: {
           'Authorization': localStorage.getItem('token')
