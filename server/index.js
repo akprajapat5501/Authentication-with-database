@@ -19,7 +19,7 @@ const HOSTNAME = "0.0.0.0";
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(cors({
-    origin: "https://authentication-with-database.vercel.app/", // your frontend
+    origin: "https://authentication-with-database.vercel.app", // your frontend
     credentials: true
 }));
 
