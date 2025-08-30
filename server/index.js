@@ -10,7 +10,7 @@ const cookieParser = require("cookie-parser");
 
 // const PORT = process.env.PORT;
 const PORT = process.env.PORT || 3000;
-const HOSTNAME = "127.0.0.1";
+const HOSTNAME = "0.0.0.0";
 
 // app.get("/", (req, res)=>{
 //     res.send("hello world")
