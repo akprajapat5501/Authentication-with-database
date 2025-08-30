@@ -35,7 +35,7 @@ const Signup = () => {
     }
     try {
       // const url = 'http://127.0.0.1:9000/auth/signup';
-      const response = await fetch("http://127.0.0.1:9000/auth/signup",
+      const response = await fetch("https://authentication-with-database.onrender.com/auth/signup",
         {
         method: 'POST',
         headers:{
